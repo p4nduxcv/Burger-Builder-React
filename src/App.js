@@ -2,7 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+
+function App() { //collo mekai aluth project ekak hadapuwama koo bn class App extends Component tika ? App.js eke ?
+  //call whatsapp adoo porn eke update ekak ynawaa opp wela thiynne can u tg ?
+  // aluth create react app eke classes use krnne na. always functional yanna thynne. ekata react hooks kiyala ekk thynwa.
+  //eka course eke anthimata use wenne. so ekai naththe. uba class widihata hadaganin mn gannee
   return (
     <div className="App">
       <header className="App-header">
