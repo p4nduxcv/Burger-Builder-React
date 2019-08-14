@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import classes from './BurgerIngredient.css';
+import classes from './BurgerIngredient.module.css';
 
 class BurgerIngredients extends Component {
 
+
     render() {
+        console.log(classes.BreadTop);
 
         let ingredient = null;
 
         switch (this.props.type) { //inside a class this.props
-            
+
 
             case ('bread-bottom'):
                 ingredient = <div className={classes.BreadBottom}></div>
