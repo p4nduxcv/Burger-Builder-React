@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-content: center;
-    margin: 5px 0
+    margin: 5px 0;
+    font-size: 20px;
 }
 
 .BuildControl button {
