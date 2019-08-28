@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import classes from './BurgerIngredient.module.css';
 
 class BurgerIngredients extends Component {
-
-
     render() {
         console.log(classes.BreadTop);
 

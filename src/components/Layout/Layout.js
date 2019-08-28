@@ -7,12 +7,11 @@ const Main = styled.main`
 `;
 
 const layout = (props) => (
-    <Aux>
-        <div>Toolbar, SideDrawer, Backdrop</div>
+    <React.Fragment>
         <Main>
             {props.children} 
         </Main>
-    </Aux>
+    </React.Fragment>
 );
 
 export default layout;
